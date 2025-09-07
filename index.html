@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,20 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Yogyakarta</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Deskripsi</a>
+            <a class="nav-link active" aria-current="page" href="#deskripsi">Deskripsi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Jumlah Penduduk</a>
@@ -37,118 +39,130 @@
       </div>
     </div>
   </nav>
+</body>
 
-  <main class="container mt-3">
-    <div class="alert alert-primary" role="alert">
-      <h2>Yogyakarta</h2>
-      <h5>D.I. Yogyakarta</h5>
+
+<main class="container mt-3">
+  <div class="alert alert-primary" role="alert">
+    <h2>Yogyakarta</h2>
+    <h5>D.I. Yogyakarta</h5>
+  </div>
+
+  <!--Description-->
+  <div class="card" id="deskripsi">
+    <div class="card-header">
+      Deskripsi
     </div>
+    <div class="card-body">
+      <p id="p1">Kota Yogyakarta (bahasaJawa: ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, atau Ngayogyakarta, atau dikenal oleh masyarakat setempat
+        dengan sebutan nama Yogya atau Jogja) adalah ibu kota sekaligus pusat pemerintahan dan perekonomian Daerah
+        Istimewa Yogyakarta. Kota ini adalah kota yang mempertahankan konsep tradisional dan budaya Jawa. Kota
+        Yogyakarta memiliki luas wilayah tersempit dibandingkan dengan daerah tingkat II lainnya, yaitu 32,5 Km² yang
+        berarti 1,025% dari luas wilayah Propinsi DIY, dengan luas 3.250 hektar tersebut terbagi menjadi 14 Kecamatan,
+        45 Kelurahan, 617 RW, dan 2.531 RT, dengan kepadatan rata-rata 13.177 jiwa/Km².</p>
+      <p class="p1">Yogyakarta terletak di wilayah yang telah dihuni sejak zaman kuno. Pada abad ke-8, wilayah ini
+        merupakan bagian dari Kerajaan Mataram Kuno, yang dikenal dengan peninggalan arkeologis. Yogyakarta menjadi
+        lebih terkenal sebagai pusat budaya dan politik setelah pendirian Kesultanan Yogyakarta pada tahun 1755. Sultan
+        Hamengkubuwono I, sebagai pendiri pertama, mendirikan kesultanan ini setelah perjanjian Giyanti pada 1755 yang
+        membagi wilayah Mataram menjadi dua bagian, yaitu Kesultanan Yogyakarta dan Kasunanan Surakarta. Kesultanan
+        Yogyakarta, dengan pusatnya di kota Yogyakarta, memainkan peran penting dalam sejarah Jawa, terutama dalam
+        konteks perjuangan melawan penjajahan Belanda dan Jepang. Sultan Hamengkubuwono I mengembangkan kota Yogyakarta
+        sebagai pusat pemerintahan dan budaya, membangun istana (Kraton) yang menjadi simbol kekuasaan dan identitas
+        kesultanan.
+    </div>
+  </div>
 
-    <!--Description-->
-    <div class="card" id="deskripsi">
-        <div class="card-header">
-          Deskripsi
-        </div>
-        <div class="card-body">
-          <p id="p1">Kota Yogyakarta (bahasa Jawa: ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, translit. Script error: The function "transl" does not
-            exist.,
-            pengucapan bahasa Jawa: [kuʈɔ ŋajogjɔˈkart̪ɔ], atau dikenal oleh masyarakat setempat dengan sebutan nama
-            Yogya atau Jogja) adalah ibu kota sekaligus pusat pemerintahan dan perekonomian Daerah Istimewa Yogyakarta,
-            Indonesia. Kota ini adalah kota yang mempertahankan konsep tradisional dan budaya Jawa.</p>
-        <p class="p1">Salah satu kemantren di Yogyakarta, yaitu Kotagede (Kuthagedhe dalam penulisan bahasa Jawa) pernah
-            menjadi
-            pusat Kesultanan Mataram antara kurun tahun 1575–1640. Kini, Yogyakarta menjadi tempat tinggal dua penerus
-            Mataram, yakni Sultan Hamengkubuwana dan Adipati Paku Alam, yang berada di Keraton Ngayogyakarta dan Pura
-            Pakualaman.
-        </div>
-      </div>
+  <!--Population-->>
+  <div class="card mt-3">
+    <div class="card-header">
+      Penduduk
+    </div>
+    <div class="card-body">
+      <table class="table table-striped table-bordered">
+        <tr>
+          <th>No</th>
+          <th>Jenis Kelamin</th>
+          <th>Jumlah</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Laki-laki</td>
+          <td>202.478 jiwa</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Perempuan</td>
+          <td>213.127 jiwa</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Total</td>
+          <td>415.605 jiwa</td>
+        </tr>
+      </table>
+    </div>
+  </div>
 
-      <!--Population-->>
-      <div class="card mt-3">
-        <div class="card-header">
-          Penduduk
-        </div>
-        <div class="card-body">
-          <table class="table table-striped table-bordered">
-            <tr>
-              <th>No</th>
-              <th>Jenis Kelamin</th>
-              <th>Jumlah</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Laki-laki</td>
-              <td>202.478 jiwa</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Perempuan</td>
-              <td>213.127 jiwa</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Total</td>
-              <td>415.021 jiwa</td>
-            </tr>
-          </table>
-        </div>
-      </div>
+  <!--Regency-->>
+  <div class="card mt-3">
+    <div class="card-header">
+      Kecamatan
+    </div>
+    <div class="card-body">
+      <ol>
+        <li>Danurejan</li>
+        <li>Gedongtengen</li>
+        <li>Gondokusuman</li>
+        <li>Gondomanan</li>
+        <li>Jetis</li>
+        <li>Kotagede</li>
+        <li>Kraton</li>
+        <li>Mantrijeron</li>
+        <li>Mergangsan</li>
+        <li>Ngampilan</li>
+        <li>Pakualaman</li>
+        <li>Tegalrejo</li>
+        <li>Umbulharjo</li>
+        <li>Wirobrajan</li>
+      </ol>
+    </div>
+  </div>
 
-      <!--Regency-->>
-      <div class="card mt-3">
-        <div class="card-header">
-          Kecamatan
-        </div>
-        <div class="card-body">
-          <ol>
-            <li>Danurejan</li>
-            <li>Gedongtengen</li>
-            <li>Gondokusuman</li>
-            <li>Gondomanan</li>
-            <li>Jetis</li>
-            <li>Kotagede</li>
-            <li>Kraton</li>
-            <li>Mantrijeron</li>
-            <li>Mergangsan</li>
-            <li>Ngampilan</li>
-            <li>Pakualaman</li>
-            <li>Tegalrejo</li>
-            <li>Umbulharjo</li>
-            <li>Wirobrajan</li>
-          </ol>
-        </div>
-      </div>
+  <!-- Link Website -->
+  <div class="card mt-3">
+    <div class="card-header">
+      Website
+    </div>
+    <div class="card-body">
+      <a href="https://jogjakota.go.id/" target="_blank" rel="noopener noreferrer">https://jogjakota.go.id/</a>
+    </div>
+  </div>
 
-      <!-- Link Website -->
-      <div class="card mt-3">
-        <div class="card-header">
-          Website
-        </div>
-        <div class="card-body">
-          <a href="https://jogjakota.go.id/" target="_blank" rel="noopener noreferrer"></a>
-        </div>
-      </div>
-
+  <!-- Photos & Videos -->
+  <div class="card mt-3" id="foto-video">
+    <div class="card-header">
+      Foto & Video
+    </div>
+    <div class="card-body">
       <!-- image -->
-      <img src="images/Yogyakarta_Indonesia_Tugu-Yogyakarta-02.jpg" 
-      alt="" 
-      height="200px" 
-      title="Tugu Yogyakarta">
+      <img
+        src="https://2.bp.blogspot.com/-amyAZE3Cqyk/W6OyPs6N8LI/AAAAAAAAQsw/MKxUoAQiLhEHqrmGvRl-Wv_YfoAnhYtoACLcBGAs/s1600/tugu-yogyakarta.jpg"
+        alt="" height="200px" title="Tugu Yogyakarta">
+    </div>
+  </div>
 
-      <!-- iframe -->
-      <iframe width="560" height="315" 
-      src="https://www.youtube.com/embed/z_lvZLnsnhI?si=bMASgT6ZtDk_AnuU" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" 
-      allowfullscreen>
-      </iframe>
+  <!-- iframe -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/z_lvZLnsnhI?si=bMASgT6ZtDk_AnuU"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
 
 
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-FKyoEForCGlvvx9Hj09JcYn3nv7wiPVLz7YYwJrWvCXK/BmnVDxM+D2scQbITxIr"
-          crossorigin="anonymous"></script>
+    integrity="sha384-FKyoEForCGlvvx9Hj09JcYn3nv7wiPVLz7YYwJrWvCXK/BmnVDxM+D2scQbITxIr"
+    crossorigin="anonymous"></script>
   </body>
-  </html>
+
+</html>
